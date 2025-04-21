@@ -190,33 +190,6 @@
   }
 }
 
-.js-load-more {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  gap: 10px;
-  border-radius: 8px;
-  padding: 8px 16px;
-  width: 125px;
-  height: 40px;
-  background: #4e75ff;
-  margin: 0 auto;
-  border: none;
-  margin-bottom: 10px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.js-load-more:hover {
-  background: #6c8cff;
-}
-
 .load-more-hidden {
   display: none;
 }
@@ -227,13 +200,6 @@
   align-items: center;
   margin: 20px 0;
   padding: 20px;
-}
-
-.end-message {
-  text-align: center;
-  font-size: 18px;
-  color: #4e75ff;
-  margin-top: 20px;
 }
 
 @media screen and (max-width: 425px) {
