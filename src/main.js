@@ -68,7 +68,7 @@ async function handleSearch(event) {
     }
     
     createGallery(hits);
-    showSuccess(`Hooray! We found ${totalHits} images.`);
+    showSuccess(`We found ${totalHits} images.`);
     
     if (hits.length < 15 || hits.length >= totalHits) {
       showEndMessage();
