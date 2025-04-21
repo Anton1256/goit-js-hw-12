@@ -98,6 +98,15 @@ async function handleLoadMore() {
     
     createGallery(hits);
     
+    const galleryItem = document.querySelector('.gallery-item');
+    if (galleryItem) {
+      const { height } = galleryItem.getBoundingClientRect();
+      window.scrollBy({
+        top: height * 2,
+        behavior: 'smooth',
+      });
+    }
+    
     if (hits.length < 15 || currentPage * 15 >= totalHits) {
       showEndMessage();
     } else {
